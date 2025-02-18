@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavFoodCart.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar start  -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="categories.html">Categories</a>
+                <a href="foods.html">Foods</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </section>
+    <!-- navbar Ends -->
+
+    <!-- food search sec  -->
+    <section class="food-search flex">
+        <div class="order-container">
+            <h2 class="text-white">Fill this form to confirm your order.</h2>
+
+            <form action="#" class="order">
+                <fieldset class="flex order">
+                    <legend>Selected Food</legend>
+
+                    <div class="food-menu-img">
+                        <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                    </div>
+
+                    <div class="food-menu-desc">
+                        <h3>Food Title</h3>
+                        <p class="food-price">$2.3</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="flex order2">
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="E.g. Vijay Thapa" class="input-responsive"
+                        required>
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. 9843xxxxxx" class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. hi@vijaythapa.com" class="input-responsive"
+                        required>
+
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive"
+                        required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+
+            </form>
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- CAtegories Section Starts Here -->
+    <div class="categories">
+        <h2 class="text-center"> Explore Foods</h2>
+        <div class="categories-container flex">
+
+            <a href="category-foods.html">
+                <div class="box-3 float-container">
+                    <img src="./images/pizza.jpg" class="img-responsive" alt="">
+                    <h3 class="float-text text-white">Pizza</h3>
+                </div>
+            </a>
+            <a href="">
+                <div class="box-3 float-container">
+                    <img src="./images/burger.jpg" class="img-responsive" alt="">
+                    <h3 class="float-text text-white">Burger</h3>
+                </div>
+            </a> <a href="">
+                <div class="box-3 float-container">
+                    <img src="./images/momo.jpg" class="img-responsive" alt="">
+                    <h3 class="float-text text-white">Momos</h3>
+                </div>
+            </a>
+        </div>
+
+    </div>
+    <!-- Categories Section Ends Here -->
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <div class="food-menu">
+
+        <h2 class="text-center">Food Menu</h2>
+        <div class="container">
+
+            <div class="food-menu-box flex">
+                <div class="food-menu-img">
+                    <img src="./images/menu-pizza.jpg" alt="">
+                </div>
+                <div class="food-menu-desc flex">
+                    <h4>Food Title</h4>
+                    <h4>140 - 300 Rs</h4>
+                    <h3>Made with Italian Sauce and organice vegetables.</h3>
+                    <a href="order.html" class=" btn btn-primary">Order</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box flex ">
+                <div class="food-menu-img">
+                    <img src="./images/menu-burger.jpg" alt="">
+                </div>
+
+                <div class="food-menu-desc flex">
+                    <h4>Steam Burger</h4>
+                    <h4>80 - 180 Rs</h4>
+                    <h3>Made with Chesse Sauces, and organice vegetables..</h3>
+                    <button class=" btn btn-primary">Order</button>
+                </div>
+            </div>
+
+            <div class="food-menu-box flex ">
+                <div class="food-menu-img">
+                    <img src="./images/menu-momo.jpg" alt="">
+                </div>
+
+                <div class="food-menu-desc flex">
+                    <h4>Steam Momoms</h4>
+                    <h4>80 - 180 Rs</h4>
+                    <h3>Made with Chesse Sauces, and organice vegetables..</h3>
+                    <button class=" btn btn-primary">Order</button>
+                </div>
+            </div>
+
+            <div class="food-menu-box flex ">
+                <div class="food-menu-img">
+                    <img src="./images/chowmein.avif" alt="">
+                </div>
+
+                <div class="food-menu-desc flex">
+                    <h4>Chowmein</h4>
+                    <h4>80 - 140 Rs</h4>
+                    <h3>Made with oninos Hot Sauces, and Fresh vegetables..</h3>
+                    <button class=" btn btn-primary">Order</button>
+                </div>
+            </div>
+
+            <div class="food-menu-box flex ">
+                <div class="food-menu-img">
+                    <img src="./images/french fries.avif" alt="">
+                </div>
+
+                <div class="food-menu-desc flex">
+                    <h4>French Fries</h4>
+                    <h4>60 - 150 Rs</h4>
+                    <h3>Made with Potato Chesse, and Hot Sauces..</h3>
+                    <button class=" btn btn-primary">Order</button>
+                </div>
+            </div>
+
+            <div class="food-menu-box flex ">
+                <div class="food-menu-img">
+                    <img src="./images/mojito.avif" alt="">
+                </div>
+
+                <div class="food-menu-desc flex">
+                    <h4>Mojito</h4>
+                    <h4>70 - 130 Rs</h4>
+                    <h3>Made with Soda Lemon, 5+ Flavours Available </h3>
+                    <button class=" btn btn-primary">Order</button>
+                </div>
+            </div>
+
+            <div class="food-menu-box flex ">
+                <div class="food-menu-img">
+                    <img src="./images/burger,french.avif" alt="">
+                </div>
+
+                <div class="food-menu-desc flex">
+                    <h4>Combo</h4>
+                    <h4> 180 Rs</h4>
+                    <h3>Get Burger with Chessey Fries .</h3>
+                    <button class=" btn btn-primary">Order</button>
+                </div>
+            </div>
+
+            <div class="food-menu-box flex ">
+                <div class="food-menu-img">
+                    <img src="./images/menu-momo.jpg" alt="">
+                </div>
+
+                <div class="food-menu-desc flex">
+                    <h4>oninos Momoms</h4>
+                    <h4>80 - 180 Rs</h4>
+                    <h3>Made with Chesse Sauces, and organice vegetables..</h3>
+                    <button class=" btn btn-primary">Order</button>
+                </div>
+            </div>
+        </div>
+        <p class="">
+            <a href="#">See All Foods</a>
+        </p>
+    </div>
+
+    <!-- fOOD MEnu Section ends Here -->
+
+    <div class="footer flex">
+        <div class="footer-logo">
+            <img src="./images/logo.png" alt="">
+        </div>
+        <!-- footer Section Starts Here -->
+        <section class="footer-2">
+            <div class="">
+                <p>All rights reserved. Designed By <a href="https://github.com/Naveen00705">Naveen</a></p>
+            </div>
+        </section>
+        <!-- footer Section Ends Here -->
+        <div class="social flex">
+
+            <ul>
+                <li>
+                    <a class="insta" href="https://www.instagram.com/_naveen07/"><img
+                            src="https://img.icons8.com/fluent/48/000000/instagram-new.png" /></a>
+                </li>
+                <li>
+                    <a href="https://github.com/Naveen00705"><img class="github"
+                            src="./images/GitHub-Mark-ea2971cee799.png" /></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
