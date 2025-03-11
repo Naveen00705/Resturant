@@ -1,3 +1,9 @@
+Live Preview
+
+You can preview the live version of the website by clicking the link below:
+
+Live Preview
+
 Restaurant Website
 
 This is a simple restaurant website showcasing the restaurant's menu, ambiance, and features. It is designed to give a preview of the restaurant's offerings and make it easy for customers to get a glimpse of what they can expect.
